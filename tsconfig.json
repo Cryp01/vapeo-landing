@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Carpeta de salida de los JS compilados
+    "target": "es6", // Versión de JavaScript de salida
+    "module": "commonjs", // Sistema de módulos
+    "jsx": "react-jsx", // Habilitar JSX para React
+    "strict": true, // Habilitar comprobaciones estrictas
+    "esModuleInterop": true, // Habilitar interoperabilidad de módulos
+    "skipLibCheck": true, // Omitir la verificación de tipos en ficheros de declaración (para acelerar compilación)
+    "forceConsistentCasingInFileNames": true // Asegurar consistencia en el casing de nombres de archivo
+  }
+}
