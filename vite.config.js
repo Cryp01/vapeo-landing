@@ -5,6 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   preview: {
-    allowedHosts: ["vapeo-landing.onrender.com", "https://vapeohookabar.com"],
+    allowedHosts: ["vapeo-landing.onrender.com", "vapeohookabar.com"],
   },
 });
