@@ -1,12 +1,15 @@
-import React from 'react';
-import { MapPin, Mail, Phone } from 'lucide-react';
+import React from "react";
+import { MapPin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="inicio"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 via-slate-900/95 to-blue-900/90"></div>
-      
+
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -18,12 +21,12 @@ const Hero = () => {
         <div className="space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold text-white">
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-              Vapeo&HookaBar
+              DECOY DISTRIBUTION, E.I.R.L.
             </span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Tu destino premium para la mejor experiencia en vapes y hookah. 
+            Tu destino premium para la mejor experiencia en vapes y hookah.
             Descubre nuestra amplia selección de productos de calidad superior.
           </p>
 
@@ -32,7 +35,8 @@ const Hero = () => {
               <MapPin className="w-8 h-8 text-purple-400 mx-auto mb-3" />
               <h3 className="text-white font-semibold mb-2">Ubicación</h3>
               <p className="text-gray-300 text-sm">
-                Avenida Gregorio Luperón, No. 14<br />
+                Avenida Gregorio Luperón, No. 14
+                <br />
                 Cerros de Gurabo III
               </p>
             </div>
@@ -41,7 +45,7 @@ const Hero = () => {
               <Mail className="w-8 h-8 text-purple-400 mx-auto mb-3" />
               <h3 className="text-white font-semibold mb-2">Email</h3>
               <p className="text-gray-300 text-sm">
-                contact@vapeohookabar.com
+                contact@decoydistribution.com
               </p>
             </div>
 
@@ -49,7 +53,8 @@ const Hero = () => {
               <Phone className="w-8 h-8 text-purple-400 mx-auto mb-3" />
               <h3 className="text-white font-semibold mb-2">Horarios</h3>
               <p className="text-gray-300 text-sm">
-                Lun - Dom<br />
+                Lun - Dom
+                <br />
                 10:00 AM - 10:00 PM
               </p>
             </div>
